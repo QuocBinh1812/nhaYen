@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Trading</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/productPage.css" />
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+
+    <header id="header" class="grey_section">
+      <div class="container">
+        <div class="row">
+          <a class="navbar-brand" href="#top"
+            ><img src="example/logo.png" alt=""
+          /></a>
+          <div class="col-sm-12 mainmenu_wrap">
+            <div class="main-menu-icon visible-xs">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav>
+              <ul id="mainmenu" class="menu sf-menu responsive-menu superfish">
+                <li class="">
+                  <a href="./">Home</a>
+                </li>
+                <li class="">
+                  <a href="./about.html">About</a>
+                </li>
+                <li class="dropdown">
+                  <a href="./gallery.html">Folio</a>
+                  <ul class="dropdown-menu">
+                    <li class="">
+                      <a href="./gallery.html">Folio version 1</a>
+                    </li>
+                    <li class="">
+                      <a href="./gallery3.html">Folio version 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown active">
+                  <a href="./blog.html">Blog</a>
+                  <ul class="dropdown-menu">
+                    <li class="">
+                      <a href="./blog.html">blog</a>
+                    </li>
+                    <li class="">
+                      <a href="./blog-single.html">Blog Post</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="./icons.html">Features</a>
+                  <ul class="dropdown-menu">
+                    <li class="">
+                      <a href="./icons.html">Icons</a>
+                    </li>
+                    <li class="">
+                      <a href="./404.html">404</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="">
+                  <a href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="middle" class="light_section">
+      <div class="container">
+        <div class="row blog">
+          <div class="col-12 col-sm-9">
+            <div class="content-area" id="primary">
+              <div role="main" class="site-content" id="content">
+                <article class="post format-standard">
+                  <header id="productRender" class="entry-header row">
+                    <!-- <div class="entry-thumbnail col-sm-6">
+                      <img alt="" src="example/blog-post.jpg" />
+                    </div>
+                    <div class="priceProduce col-sm-6">
+                      <h3>Tổ Yến Đảo Thô Nguyên Bản Cao Cấp Thượng Hạng</h3>
+                      <h4>Giá từ : <span>3.450.000</span> VND</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet Lorem ipsum dolor sit. lorem
+                        ipsum dolor sit. Lorem ipsum dolor sit amet Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Quibusdam
+                        explicabo ipsa voluptatum libero reiciendis aliquid iure
+                        delectus fugit adipisci commodi! Libero, itaque!
+                        Eveniet, vel quidem. Culpa fuga sequi, quam repellendus,
+                        officia delectus dolores itaque dolore maxime molestias
+                        quasi facere cum.
+                      </p>
+                      <h6>Trọng Lượng</h6>
+                      <button class="draw">100gr</button>
+                      <button class="draw">200gr</button>
+                      <button class="">Mua ngay</button>
+                    </div> -->
+                  </header>
+                  <!-- .entry-header -->
+                  <!-- -----------------Modal-------------- -->
+
+                  <!-- Button trigger modal -->
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content" id="modaljs"></div>
+                    </div>
+                  </div>
+
+                  <!-- end modal -->
+                  <h2 class="entry-title">
+                    <p>Giới thiệu về tổ yến thô</p>
+                  </h2>
+                  <div class="entry-content">
+                    <p>
+                      Tổ yến thô là tổ yến nguyên chất còn lông, nguyên thủy
+                      chưa qua làm sạch, loại bỏ các chất cặn bã và còn lông màu
+                      đen lẫn bên trong sợi Yến chúng ta phải tiến hành rút lông
+                      và loại bỏ tạp chất. Sản phẩm để làm sạch hoàn toàn được
+                      lông và tạp chất ra khỏi yến mất khá nhiều thời gian nên
+                      sẽ phù hợp với những người có nhiều thời gian rảnh. Do
+                      chưa qua xử lí cho nên, khi mua về bạn phải ngồi để lấy
+                      lông ra ngoài, Khi chưng thì tổ yến nở gấp 4 – 5 lần, giai
+                      và giòn. nhiều chất dinh dưỡng. sản phẩm này tiết kiệm chi
+                      phí lớn nhất. Tổ Yến Thô Loại 3 là tổ yến nguyên thủy,
+                      nhiều lông, mỏng, có tổ yến tròn, tổ góc lẫn lộn. Tuy
+                      nhiên đối với tổ yến thô khách hàng mua về phải nhặt lông
+                      để sử dụng, vẫn giữ nguyên mùi vị đặc trưng, giữ nguyên
+                      mùi thơm. Để đạt được chât lượng tốt tổ yến phải được thu
+                      hoạch đúng vụ vì để lâu trong nhà yến ảnh hưởng tới dinh
+                      dưỡng vốn có của tổ yến, giữ nguyên mùi vị đặc trưng và
+                      nguyên chất nhất, giữ nguyên mùi thơm tanh, dai và ngon
+                      nhất trong tất các sản phẩm tổ yến khác vì không trải qua
+                      quá trình sơ chế, phù hợp với quý khách hàng có thời
+                      gianTổ yến thô là tổ yến nguyên chất còn lông, nguyên thủy
+                      chưa qua làm sạch, loại bỏ các chất cặn bã và còn lông màu
+                      đen lẫn bên trong sợi Yến chúng ta phải tiến hành rút lông
+                      và loại bỏ tạp chất. Sản phẩm để làm sạch hoàn toàn được
+                      lông và tạp chất ra khỏi yến mất khá nhiều thời gian nên
+                      sẽ phù hợp với những người có nhiều thời gian rảnh. Do
+                      chưa qua xử lí cho nên, khi mua về bạn phải ngồi để lấy
+                      lông ra ngoài, Khi chưng thì tổ yến nở gấp 4 – 5 lần, giai
+                      và giòn. nhiều chất dinh dưỡng. sản phẩm này tiết kiệm chi
+                      phí lớn nhất. Tổ Yến Thô Loại 3 là tổ yến nguyên thủy,
+                      nhiều lông, mỏng, có tổ yến tròn, tổ góc lẫn lộn. Tuy
+                      nhiên đối với tổ yến thô khách hàng mua về phải nhặt lông
+                      để sử dụng, vẫn giữ nguyên mùi vị đặc trưng, giữ nguyên
+                      mùi thơm. Để đạt được chât lượng tốt tổ yến phải được thu
+                      hoạch đúng vụ vì để lâu trong nhà yến ảnh hưởng tới dinh
+                      dưỡng vốn có của tổ yến, giữ nguyên mùi vị đặc trưng và
+                      nguyên chất nhất, giữ nguyên mùi thơm tanh, dai và ngon
+                      nhất trong tất các sản phẩm tổ yến khác vì không trải qua
+                      quá trình sơ chế, phù hợp với quý khách hàng có thời gian
+                    </p>
+                  </div>
+                  <!-- .entry-content -->
+                  <!-- <div class="entry-tags">
+                    <span class="tags-links">
+                      <a rel="tag" href="#">Graphic Design</a>,
+                      <a rel="tag" href="#">Photography</a>
+                    </span>
+                  </div> -->
+                  <!-- .entry-tags -->
+                </article>
+                <!-- .post -->
+
+                <!-- <article class="post format-small-image">
+                  <div class="row">
+                    <div class="entry-thumbnail col-sm-5">
+                      <img alt="" src="example/blog-post-small.jpg" />
+                    </div>
+                    <div class="col-sm-7">
+                      <header class="entry-header">
+                        <h2 class="entry-title">
+                          <a href="./blog-single.html" rel="bookmark"
+                            >Post With Small Image</a
+                          >
+                        </h2>
+                        <div class="entry-meta">
+                          By
+                          <span class="author vcard">
+                            <a rel="author" href="#" class="url fn n"
+                              >Alan Smith</a
+                            >
+                          </span>
+                          <span class="categories-links">
+                            In
+                            <a rel="category" href="#">Graphic Design</a>,
+                            <a rel="category" href="#">Photography</a>
+                          </span>
+                          <span class="date">
+                            Posted
+                            <time
+                              datetime="2013-08-08T15:05:23+00:00"
+                              class="entry-date"
+                              >December 8, 2013</time
+                            >
+                          </span>
+                          <span class="comments-link">
+                            <a href="#">5 comments</a>
+                          </span>
+                        </div>
+                      </header>
+
+                      <div class="entry-content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Accusantium, ad, architecto, suscipit et
+                          officiis autem eius ratione volupta consectetur
+                          adipisicing elits ut exercitationem ullam natus quia
+                        </p>
+                        <p>
+                          Nihil magnam ad, architecto, suscipit et officiis
+                          consectetur adipisicing elit sunt repellat officia
+                          suscipit et officiis consectetur similique?
+                        </p>
+                      </div>
+                      <div class="entry-tags">
+                        <span class="tags-links">
+                          <a rel="tag" href="#">Graphic Design</a>,
+                          <a rel="tag" href="#">Photography</a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </article> -->
+                <!-- .post -->
+
+                <article class="post format-gallery">
+                  <header class="entry-header">
+                    <div class="entry-thumbnail">
+                      <div id="carousel-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li
+                            data-target="#carousel-generic"
+                            data-slide-to="0"
+                            class="active"
+                          ></li>
+                          <li
+                            data-target="#carousel-generic"
+                            data-slide-to="1"
+                          ></li>
+                          <li
+                            data-target="#carousel-generic"
+                            data-slide-to="2"
+                          ></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="example/blog-post.jpg" alt="image" />
+                          </div>
+                          <div class="item">
+                            <img src="example/blog-post.jpg" alt="image" />
+                          </div>
+                          <div class="item">
+                            <img src="example/blog-post.jpg" alt="image" />
+                          </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a
+                          class="left carousel-control"
+                          href="#carousel-generic"
+                          data-slide="prev"
+                        >
+                          <span class="icon-prev"></span>
+                        </a>
+                        <a
+                          class="right carousel-control"
+                          href="#carousel-generic"
+                          data-slide="next"
+                        >
+                          <span class="icon-next"></span>
+                        </a>
+                      </div>
+                    </div>
+                    <h2 class="entry-title">
+                      <a href="./blog-single.html" rel="bookmark"
+                        >Post With Slider</a
+                      >
+                    </h2>
+                    <div class="entry-meta">
+                      By
+                      <span class="author vcard">
+                        <a rel="author" href="#" class="url fn n">Alan Smith</a>
+                      </span>
+                      <span class="categories-links">
+                        In
+                        <a rel="category" href="#">Graphic Design</a>,
+                        <a rel="category" href="#">Photography</a>
+                      </span>
+                      <span class="date">
+                        Posted
+                        <time
+                          datetime="2013-08-08T15:05:23+00:00"
+                          class="entry-date"
+                          >December 8, 2013</time
+                        >
+                      </span>
+                      <span class="comments-link">
+                        <a href="#">5 comments</a>
+                      </span>
+                    </div>
+                    <!-- .entry-meta -->
+                  </header>
+                  <!-- .entry-header -->
+
+                  <div class="entry-content">
+                    <p>
+                      At vero eos et accusam et justo duo dolores et ea rebum.
+                      Ut wisi enim adinim veniam, quis nostrud exerci tation
+                      ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                      commodo consequat. Lorem ipsum dolor sit amet. Ut wisi
+                      enim ad minim veniam, quis nostrud exerci tation
+                      ullamcorper suscipit lobortis nisl ut aliquip ex commodo
+                      consequa orem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <!-- .entry-content -->
+                  <div class="entry-tags">
+                    <span class="tags-links">
+                      <a rel="tag" href="#">Graphic Design</a>,
+                      <a rel="tag" href="#">Photography</a>
+                    </span>
+                  </div>
+                  <!-- .entry-tags -->
+                </article>
+                <!-- .post -->
+                <article class="post format-video">
+                  <header class="entry-header">
+                    <div class="entry-thumbnail">
+                      <iframe
+                        src="//player.vimeo.com/video/1084537"
+                        width="848"
+                        height="390"
+                      ></iframe>
+                    </div>
+                    <h2 class="entry-title">
+                      <a href="./blog-single.html" rel="bookmark"
+                        >Post With Video</a
+                      >
+                    </h2>
+                    <div class="entry-meta">
+                      By
+                      <span class="author vcard">
+                        <a rel="author" href="#" class="url fn n">Alan Smith</a>
+                      </span>
+                      <span class="categories-links">
+                        In
+                        <a rel="category" href="#">Graphic Design</a>,
+                        <a rel="category" href="#">Photography</a>
+                      </span>
+                      <span class="date">
+                        Posted
+                        <time
+                          datetime="2013-08-08T15:05:23+00:00"
+                          class="entry-date"
+                          >December 8, 2013</time
+                        >
+                      </span>
+                      <span class="comments-link">
+                        <a href="#">5 comments</a>
+                      </span>
+                    </div>
+                    <!-- .entry-meta -->
+                  </header>
+                  <!-- .entry-header -->
+
+                  <div class="entry-content">
+                    <p>
+                      At vero eos et accusam et justo duo dolores et ea rebum.
+                      Ut wisi enim adinim veniam, quis nostrud exerci tation
+                      ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                      commodo consequat. Lorem ipsum dolor sit amet. Ut wisi
+                      enim ad minim veniam, quis nostrud exerci tation
+                      ullamcorper suscipit lobortis nisl ut aliquip ex commodo
+                      consequa orem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <!-- .entry-content -->
+                  <div class="entry-tags">
+                    <span class="tags-links">
+                      <a rel="tag" href="#">Graphic Design</a>,
+                      <a rel="tag" href="#">Photography</a>
+                    </span>
+                  </div>
+                  <!-- .entry-tags -->
+                </article>
+                <!-- .post -->
+              </div>
+              <!-- #content -->
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="col-sm-3 listProduct">
+            <div class="block widget_tweet">
+              <h3>Các sản phẩm khác</h3>
+              <!-- <div class="twitter"></div> -->
+            </div>
+            <div id="sidebarProductRender"></div>
+          </aside>
+          <!-- eof Sidebar -->
+        </div>
+      </div>
+    </section>
+
+    <section id="subscribe" class="grey_section">
+      <div class="container">
+        <div class="row">
+          <div class="block col-sm-12 subscribe text-center">
+            <h3>Newsletter Singup</h3>
+            <form id="signup" action="/" method="get">
+              <div class="form-group">
+                <input
+                  name="email"
+                  id="mailchimp_email"
+                  type="email"
+                  class="form-control"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <button type="submit" class="theme_btn">Singup</button>
+              <div id="response"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="light_section">
+      <div class="container-fluid">
+        <div class="footerInformation row">
+          <div class="col-12">
+            <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>
+            <p>
+              <span>Hà Nội:</span> Tầng 2, số 3 ngõ 9 đường 800A, Nghĩa Đô, Cầu
+              Giấy, Hà Nội
+            </p>
+            <p>Điện thoại : 0888698986</p>
+            <p>
+              <span>Nha Trang:</span> Tầng 2, số 3 ngõ 9 đường 800A, Nghĩa Đô,
+              Cầu Giấy, Hà Nội
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="follow_icon text-center">
+              <a class="socialico-facebook" href="#" title="Facebook">#</a>
+              <a class="socialico-twitter" href="#" title="Twitter">#</a>
+              <a class="socialico-google" href="#" title="Google">#</a>
+              <a class="socialico-linkedin" href="#" title="Lindedin">#</a>
+              <a class="socialico-skype" href="#" title="Skype">#</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section id="copyright" class="color_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            &copy; Copyright 2014 - Trading
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="preloader">
+      <div class="preloaderimg"></div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
+      integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="js/vendor/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/placeholdem.min.js"></script>
+    <script src="js/vendor/hoverIntent.js"></script>
+    <script src="js/vendor/superfish.js"></script>
+    <script src="js/vendor/jquery.actual.min.js"></script>
+    <script src="js/vendor/jquery.appear.js"></script>
+    <script src="js/vendor/jquerypp.custom.js"></script>
+    <script src="js/vendor/jquery.elastislide.js"></script>
+    <script src="js/vendor/jquery.flexslider-min.js"></script>
+    <script src="js/vendor/jquery.prettyPhoto.js"></script>
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src="js/vendor/jquery.ui.totop.js"></script>
+    <script src="js/vendor/jquery.isotope.min.js"></script>
+    <script src="js/vendor/jquery.easypiechart.min.js"></script>
+    <script src="js/vendor/jflickrfeed.min.js"></script>
+    <script src="js/vendor/jquery.sticky.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/jquery.nicescroll.min.js"></script>
+    <script src="js/vendor/jquery.fractionslider.min.js"></script>
+    <script src="js/vendor/jquery.scrollTo-min.js"></script>
+    <script src="js/vendor/jquery.localscroll-min.js"></script>
+    <script src="js/vendor/jquery.parallax-1.1.3.js"></script>
+    <script src="js/vendor/jquery.bxslider.min.js"></script>
+    <script src="js/vendor/jquery.funnyText.min.js"></script>
+    <script src="js/vendor/jquery.countTo.js"></script>
+    <script src="js/vendor/grid.js"></script>
+    <script src="twitter/jquery.tweet.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+    <!-- facebook chat  -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v9.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="848711842168969"
+      theme_color="#ffc300"
+      logged_in_greeting="Chúng tôi có thể giúp gì cho bạn"
+      logged_out_greeting="Chúng tôi có thể giúp gì cho bạn"
+    ></div>
+  </body>
+</html>
